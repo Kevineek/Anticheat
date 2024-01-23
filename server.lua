@@ -110,7 +110,7 @@ AddEventHandler(
        -- deferrals.defer()
       -- - Citizen.Wait(500)
       -- - if steamID2 == "n/a" then
-      --      deferrals.done("\n🛡️💖|FTL AC| Tvůj steam není zapnutý🛡️💖 \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: STEAM_NOT_RUNNING]")
+      --      deferrals.done("\n🛡️💖|KVN AC| Tvůj steam není zapnutý🛡️💖 \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: STEAM_NOT_RUNNING]")
     --    end
      --   deferrals.update(string.format("\n🛡️💖|FTL AC| Ověřuje se tvoje HWID..."))
         Citizen.Wait(500)
@@ -128,17 +128,17 @@ AddEventHandler(
                 end
                 for name in pairs(blacklistednames) do
                     if(string.gsub(string.gsub(string.gsub(string.gsub(jmeno:lower(), "-", ""), ",", ""), "%.", ""), " ", ""):find(blacklistednames[name])) then
-                        deferrals.done( "🛡️💖|FTL AC| Toto jméno je zakázané! 🛡️💖" )
+                        deferrals.done( "🛡️💖|KVN AC| Toto jméno je zakázané! 🛡️💖" )
                         CancelEvent()
                         break
                     end
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖 | FTL AC | HWID bylo zabanováno🛡️💖 \n 🛡️💖 | Pro odvolání přijď na náš discord. | 🛡️💖 \n🛡️💖| https://discord.gg/discord |🛡️💖\n\n [ERROR: HWID_TOKEN_18_BANNED]"
+                        "\n🛡️💖 | KVN AC | HWID bylo zabanováno🛡️💖 \n 🛡️💖 | Pro odvolání přijď na náš discord. | 🛡️💖 \n🛡️💖| https://discord.gg/discord |🛡️💖\n\n [ERROR: HWID_TOKEN_18_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje...  🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje...  🛡️💖")
                     Citizen.Wait(1600)
                 end
             end
@@ -159,15 +159,15 @@ AddEventHandler(
                     end
                 end
                 if token2 == nil then 
-                    deferrals.done( "\n🛡️💖|FTL AC| Chyba při detekci HWID , prosím restartuj počítač 🛡️💖 \n 🛡️💖 Pokud tato chyba přetrvává, udělej si ticket u nás na discordu. 🛡️💖  \n🛡️💖 https://discord.gg/discord 🛡️💖\n\n [ERROR: HWID_TOKEN2_ERROR]"
+                    deferrals.done( "\n🛡️💖|KVN AC| Chyba při detekci HWID , prosím restartuj počítač 🛡️💖 \n 🛡️💖 Pokud tato chyba přetrvává, udělej si ticket u nás na discordu. 🛡️💖  \n🛡️💖 https://discord.gg/discord 🛡️💖\n\n [ERROR: HWID_TOKEN2_ERROR]"
                 )
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| Token byl zabanován🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: HWID_TOKEN_2_BANNED]"
+                        "\n🛡️💖|KVN AC| Token byl zabanován🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: HWID_TOKEN_2_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje...  🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje...  🛡️💖")
                     Citizen.Wait(1600)
                 end
             end
@@ -189,10 +189,10 @@ AddEventHandler(
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: HWID_TOKEN_3_BANNED]"
+                        "\n🛡️💖|KVN AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: HWID_TOKEN_3_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje...  🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje...  🛡️💖")
                     Citizen.Wait(1600)
                 end
             end
@@ -214,10 +214,10 @@ AddEventHandler(
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: HWID_TOKEN_4_BANNED]"
+                        "\n🛡️💖|KVN AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: HWID_TOKEN_4_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje...  🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje...  🛡️💖")
                     Citizen.Wait(1600)
                 end
             end
@@ -238,10 +238,10 @@ AddEventHandler(
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: HWID_TOKEN_5_BANNED]"
+                        "\n🛡️💖|KVN AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/discord🛡️💖\n\n [ERROR: HWID_TOKEN_5_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje...  🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje...  🛡️💖")
                     Citizen.Wait(1600)
                 end
             end
@@ -263,10 +263,10 @@ AddEventHandler(
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_TOKEN_6_BANNED]"
+                        "\n🛡️💖|KVN AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_TOKEN_6_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje...  🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje...  🛡️💖")
                     Citizen.Wait(1600)
                 end
             end
@@ -286,7 +286,7 @@ AddEventHandler(
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_TOKEN_7_BANNED]"
+                        "\n🛡️💖|KVN AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_TOKEN_7_BANNED]"
                     )
                 else
                     deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje...  🛡️💖")
@@ -311,10 +311,10 @@ AddEventHandler(
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_ACCOUNT_TOKEN_01_BANNED]"
+                        "\n🛡️💖|KVN AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_ACCOUNT_TOKEN_01_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje...  🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje...  🛡️💖")
                     Citizen.Wait(1600)
                 end
             end
@@ -335,10 +335,10 @@ AddEventHandler(
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_ACCOUNT_TOKEN_02_BANNED]"
+                        "\n🛡️💖|KVN AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_ACCOUNT_TOKEN_02_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje... 🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje... 🛡️💖")
                     Citizen.Wait(1600)
                 end
             end
@@ -358,12 +358,12 @@ AddEventHandler(
                 end
                 if found == true then
                     deferrals.done(
-                        "\n🛡️💖|FTL AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_ACCOUNT_TOKEN_03_BANNED]"
+                        "\n🛡️💖|KVN AC| HWID bylo zabanováno🛡️💖 \n 🛡️💖Pro odvolání přijď na náš discord.🛡️💖  \n🛡️💖https://discord.gg/nGgNKXqD9w🛡️💖\n\n [ERROR: HWID_ACCOUNT_TOKEN_03_BANNED]"
                     )
                 else
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID se ověřuje... 🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID se ověřuje... 🛡️💖")
                     Citizen.Wait(1600)
-                    deferrals.update("\n🛡️💖|FTL AC| Tvoje HWID bylo oveřeno ! 🛡️💖")
+                    deferrals.update("\n🛡️💖|KVN AC| Tvoje HWID bylo oveřeno ! 🛡️💖")
                     Citizen.Wait(2000)
                     deferrals.done()
                 end
