@@ -498,7 +498,7 @@ AddEventHandler(
             -1,
             {
                 args = {
-                    "🛡️💖^7[ ^6FTL AC^7] ^1HWID ^6hráče " .. GetPlayerName(source) .. " ^1 zabanované",
+                    "🛡️💖^7[ ^6KVN AC^7] ^1HWID ^6hráče " .. GetPlayerName(source) .. " ^1 zabanované",
                     " ^7^1" .. reason .. "🛡️💖\n "
                 }
             } --
@@ -534,7 +534,7 @@ function PepeWareBan(playersource, reason)
             -1,
             {
                 args = {
-                    "🛡️💖^7[ ^6FTL AC^7] ^1HWID ^6hráče " .. GetPlayerName(playersource) .. " ^1 zabanované",
+                    "🛡️💖^7[ ^6KVN AC^7] ^1HWID ^6hráče " .. GetPlayerName(playersource) .. " ^1 zabanované",
                     " ^7^1" .. reason .. "🛡️💖\n "
                 }
             } --
