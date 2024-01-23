@@ -5,11 +5,11 @@
 ██║░░██╗██║░░░░░██║██╔══╝░░██║╚████║░░░██║░░░  ██║░░██╗██║░░██║██║╚████║██╔══╝░░██║██║░░╚██╗
 ╚█████╔╝███████╗██║███████╗██║░╚███║░░░██║░░░  ╚█████╔╝╚█████╔╝██║░╚███║██║░░░░░██║╚██████╔╝
 ░╚════╝░╚══════╝╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░  ░╚════╝░░╚════╝░╚═╝░░╚══╝╚═╝░░░░░╚═╝░╚═════╝░]]
-ftl = {}
-ftl.weaponblacklisting = true
+kvn = {}
+kvn.weaponblacklisting = true
 --// Blacklistované zbraně \\-- 
 
-ftl.zbrane = {
+kvn.zbrane = {
     "WEAPON_COMBATMG",
     "WEAPON_COMBATMG_MK2",
     "WEAPON_COMPACTLAUNCHER",
