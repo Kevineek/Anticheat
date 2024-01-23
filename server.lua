@@ -22,7 +22,7 @@ function DiscordMsg(Duvod, _source)
             ["title"] = "🛡️💖   [ID: **" .. _source .. "**] | " .. GetPlayerName(_source) .. "   🛡️💖",
             ["description"] = "🛡️💖   " .. Duvod .. "   🛡️💖",
             ["footer"] = {
-                ["text"] = "FTL AC"
+                ["text"] = "KVN AC"
             }
         }
     }
