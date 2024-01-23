@@ -33,7 +33,7 @@ function DiscordMsg(Duvod, _source)
         "POST",
         json.encode(
             {
-                username = "FTL AC",
+                username = "KVN AC",
                 embeds = connect,
                 avatar_url = "https://cdn.discordapp.com/attachments/542373462921183262/796849635788062750/Unknown.png"
             }
@@ -49,7 +49,7 @@ AddEventHandler("LICENSE:Check", function(ip, resName)
         {
             ["color"] = 7419530,
             ["title"] = "\nResource: "..resName.." started on ip: "..ip,
-            ["description"] = "License: "..ftl.license,
+            ["description"] = "License: "..kvn.license,
             ["footer"] = {
                 ["text"] = "funi_filesecure v1.0"
             },
